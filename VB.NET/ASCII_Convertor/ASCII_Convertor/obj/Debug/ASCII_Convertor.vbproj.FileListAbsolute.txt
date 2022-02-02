@@ -1,0 +1,10 @@
+c:\users\ojpro\onedrive\documents\visual studio 2012\Projects\ASCII_Convertor\ASCII_Convertor\bin\Debug\ASCII_Convertor.exe.config
+c:\users\ojpro\onedrive\documents\visual studio 2012\Projects\ASCII_Convertor\ASCII_Convertor\bin\Debug\ASCII_Convertor.exe
+c:\users\ojpro\onedrive\documents\visual studio 2012\Projects\ASCII_Convertor\ASCII_Convertor\bin\Debug\ASCII_Convertor.pdb
+c:\users\ojpro\onedrive\documents\visual studio 2012\Projects\ASCII_Convertor\ASCII_Convertor\bin\Debug\ASCII_Convertor.xml
+c:\users\ojpro\onedrive\documents\visual studio 2012\Projects\ASCII_Convertor\ASCII_Convertor\obj\Debug\ASCII_Convertor.Form1.resources
+c:\users\ojpro\onedrive\documents\visual studio 2012\Projects\ASCII_Convertor\ASCII_Convertor\obj\Debug\ASCII_Convertor.Resources.resources
+c:\users\ojpro\onedrive\documents\visual studio 2012\Projects\ASCII_Convertor\ASCII_Convertor\obj\Debug\ASCII_Convertor.vbproj.GenerateResource.Cache
+c:\users\ojpro\onedrive\documents\visual studio 2012\Projects\ASCII_Convertor\ASCII_Convertor\obj\Debug\ASCII_Convertor.exe
+c:\users\ojpro\onedrive\documents\visual studio 2012\Projects\ASCII_Convertor\ASCII_Convertor\obj\Debug\ASCII_Convertor.xml
+c:\users\ojpro\onedrive\documents\visual studio 2012\Projects\ASCII_Convertor\ASCII_Convertor\obj\Debug\ASCII_Convertor.pdb

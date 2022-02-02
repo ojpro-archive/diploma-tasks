@@ -1,0 +1,36 @@
+package school.presentation;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+
+import com.mysql.cj.x.protobuf.MysqlxDatatypes.Array;
+
+public class ORM {
+	// create empty connection object
+	Connection connect = null;
+
+	// method to connect to a specified database
+	public Connection connect(String DB_URL, String DB_USER, String DB_PASS) throws SQLException {
+		// Get A connection
+		connect = DriverManager.getConnection(DB_URL, DB_USER, DB_PASS);
+		// return the connection's object
+		return connect;
+	}
+
+	public ResultSet select(String rows, String table) throws SQLException {
+		// Select query to fetch [rows] from [table]
+		String select_query = "SELECT " + rows + " FROM " + table;
+		// prepare for sending a request
+		Statement stmt = this.connect.createStatement();
+		// store fetched data as ResutltSet
+		ResultSet response = stmt.executeQuery(select_query);
+		// return fetched data
+		return response;
+
+	}
+
+}

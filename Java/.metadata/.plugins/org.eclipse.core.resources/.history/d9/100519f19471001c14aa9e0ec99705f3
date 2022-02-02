@@ -1,0 +1,19 @@
+package school.presentation;
+
+import java.sql.SQLException;
+
+public class Test {
+	// Connecting credentials
+	private static String DB_URL = "jdbc:mysql://localhost/jdbc_presentation";
+	private static String DB_USER = "root";
+	private static String DB_PASS = "password";
+	
+	public static void main(String[] args) throws SQLException {
+		// create connection object
+		ORM con = new ORM();
+		
+		System.out.println(con.connect(DB_URL,DB_USER,DB_PASS));
+		
+	}
+
+}

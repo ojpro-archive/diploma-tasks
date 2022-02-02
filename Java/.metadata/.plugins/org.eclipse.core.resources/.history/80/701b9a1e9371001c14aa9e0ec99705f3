@@ -1,0 +1,17 @@
+package school.presentation;
+
+public class Test {
+	// Connecting credentials
+	private static String DB_URL = "jdbc:mysql://localhost/jdbc_presentation";
+	private static String DB_USER = "root";
+	private static String DB_PASS = "password";
+	
+	public static void main(String[] args) {
+		// create connection object
+		ConnectDB con = new ConnectDB(DB_URL,DB_USER,DB_PASS);
+		
+		System.out.println(con.getConnection());
+		
+	}
+
+}

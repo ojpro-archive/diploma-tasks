@@ -1,0 +1,35 @@
+form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    box-shadow: 0 0 8px #ededed;
+    border-radius: 4px;
+    padding: 1rem;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+form input{
+    box-shadow: 0 0 8px #f3f3f3;
+    border: 1px solid #e5e5e5;
+    padding: 8px;
+    width: 95%;
+    border-radius: 4px;
+}
+form button{
+    background-color: rgb(89, 89, 248);
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+    color: #fff;
+}
+.msg.error{
+    color: red;
+    text-align: center;
+    display: block;
+    margin-top: 4rem;
+    font-weight: 700;
+    font-family: monospace;
+}
